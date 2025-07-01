@@ -20,7 +20,7 @@ Aqui você encontrará uma lista de recursos úteis para se preparar para o exam
 Veja os projetos e desafios que completei durante o bootcamp e a formação:
 - [Desafios de Código]()
 - [Desafio 1: Trabalhando com Machine Learning na Prática no Azure ML](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pr%C3%A1tica-no-Azure-ML)
-- [Desafio 2: ]()
+- [Desafio 2: Reconhecimento Facial e transformação de imagens em Dados no Azure ML]()
 - [Desafio 3: ]()
 - [Desafio 4: ]()
 - [Desafio 5: ]()

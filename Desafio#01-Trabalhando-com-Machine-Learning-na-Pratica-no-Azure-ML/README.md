@@ -18,6 +18,8 @@ O Microsoft Azure é uma plataforma de nuvem que disponibiliza uma variedade de 
 ### Localizando Serviços por Categoria
 No Azure, os serviços são classificados em categorias como Computação, Rede, Armazenamento, entre outras. Vamos entender como acessar serviços específicos dentro de cada uma dessas categorias.
 
+#### 🎯 Desafio de Projeto
+
 
 ### 🗒️ Recursos Adicionais
 - [Documentação Oficial do Microsoft Azure](https://docs.microsoft.com/azure)
