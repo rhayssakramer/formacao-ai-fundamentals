@@ -124,7 +124,7 @@ Este guia serve como repositório de estudos, desafios e projetos da [Bootcamp M
 
 *Nota: Este projeto é apenas para fins educacionais e não possui nenhuma afiliação oficial com a franquia DIO ou suas empresas associadas.*
 
-## 👩🏼‍💻 Autoria:
+### 👩🏼‍💻 Autora:
 <table style="border=0">
   <tr>
     <td align="left">
@@ -132,9 +132,9 @@ Este guia serve como repositório de estudos, desafios e projetos da [Bootcamp M
         <span><b>Rhayssa Kramer</b></span>
       </a>
       <br>
-      <span>Assoc, Full-Stack Development</span>
+      <span>Sr. Assoc, Full-Stack Development</span>
     </td>
   </tr>
 </table>
 
-### <div align="center">Feito por <a href="https://github.com/rhayssakramer">@devrhakramer</a></div>
+<div align="center"><a href="https://github.com/rhayssakramer"><img src="https://github.com/rhayssakramer/rhayssakramer/blob/main/img/by-devrhakramer.png" width="100"></a></div>
