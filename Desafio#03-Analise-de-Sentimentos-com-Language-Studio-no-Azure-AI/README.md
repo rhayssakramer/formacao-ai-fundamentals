@@ -15,7 +15,7 @@ Este repositório corresponde ao Desafio #03 da  [Bootcamp Microsoft - Fundament
 O `Microsoft Azure` é uma plataforma de nuvem que disponibiliza uma variedade de serviços, distribuídos em várias categorias. Este guia foi elaborado para ajudá-lo a navegar pelo portal do Azure e encontrar facilmente os serviços que você precisa.
 
 ### 🎯 Desafio de Projeto
-Este repositório apresenta um passo a passo completo para realizar uma Análise de Sentimentos utilizando o `Language Studio` e `Azure Speech Studio`, ferramenta da plataforma Azure AI. Ideal para iniciantes em IA Cognitiva e Processamento de Linguagem Natural (PLN).Neste laboratório o objetivo é praticar e aprofundar o uso das ferramentas `Azure Speech Studio` e `Language Studio`, focando na análise de fala e linguagem natural. 
+Este repositório apresenta um passo a passo completo para realizar uma Análise de Sentimentos utilizando o `Language Studio` e `Azure Speech Studio`, ferramenta da plataforma Azure AI. Ideal para iniciantes em IA Cognitiva e `Processamento de Linguagem Natural (PLN)`. Neste laboratório o objetivo é praticar e aprofundar o uso das ferramentas `Azure Speech Studio` e `Language Studio`, focando na análise de fala e linguagem natural. 
 
 ### 🛠️ Objetivos
 O objetivo é desenvolver habilidades práticas na criação de soluções baseadas em inteligência artificial voltadas para voz e linguagem. O entregável é um repositório organizado contendo anotações e insights adquiridos durante a prática, servindo como material de apoio para estudos e futuras implementações.
