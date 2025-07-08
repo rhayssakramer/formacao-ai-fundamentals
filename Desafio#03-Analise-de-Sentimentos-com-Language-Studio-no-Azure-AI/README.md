@@ -3,15 +3,15 @@
 Este repositório corresponde ao Desafio #03 da  [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089) para praticar e aprofundar o uso das ferramentas `Azure Speech Studio` e `Language Studio`, focando na análise de fala e linguagem natural. 
 
 ### Índice
-- [Introdução]()
-- [Desafio do Projeto]()
-- [Objetivos]()  
-    [x] [Pré-requisitos]()  
-    [x] [O que é o Language Studio?]()  
-    [x] [Passo a Passo: Análise de Sentimentos]()  
-- [Recursos Adicionais]()
+- [Introdução](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#introdu%C3%A7%C3%A3o)
+- [Desafio do Projeto](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#-desafio-de-projeto)
+- [Objetivos](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#%EF%B8%8F-objetivos)  
+    [x] [Pré-requisitos](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#-pr%C3%A9-requisitos)  
+    [x] [O que é o Language Studio?](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#-o-que-%C3%A9-o-language-studio)  
+    [x] [Passo a Passo: Análise de Sentimentos](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#-passo-a-passo-an%C3%A1lise-de-sentimentos)  
+- [Recursos Adicionais](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#%EF%B8%8F-recursos-adicionais)
 
-### Introdução
+### ▶️ Introdução
 O `Microsoft Azure` é uma plataforma de nuvem que disponibiliza uma variedade de serviços, distribuídos em várias categorias. Este guia foi elaborado para ajudá-lo a navegar pelo portal do Azure e encontrar facilmente os serviços que você precisa.
 
 ### 🎯 Desafio de Projeto
