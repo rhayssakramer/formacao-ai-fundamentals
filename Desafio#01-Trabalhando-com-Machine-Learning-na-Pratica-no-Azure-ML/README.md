@@ -3,19 +3,19 @@
 Este repositório corresponde ao Desafio #01 da  [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089) para aprender a criar nossa conta no Azure e explorar as capacidades de `Machine Learning` da plataforma para desenvolver nossa primeira automação prática. Ao aplicar implementações e soluções escaláveis de aprendizado de máquina na nuvem da Microsoft, adquiriremos conhecimentos valiosos e experiência na construção de soluções eficientes. 
 
 ### Índice
-- [Introdução]()
-- [Desafio de Projeto]()
-- [Objetivos]()  
-  [x] [Pré-requisitos]()  
-  [x] [O que será feito?]()   
-  [x] [Passo a Passo]()  
-  [x] [Modelo de Uso]()  
-  [x] [O que é JSON?]()  
-  [x] [Casos de Uso]()      
-  [x] [Dica Extra]()    
-- [Recursos Adicionais]()
+- [Introdução](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#introdu%C3%A7%C3%A3o)
+- [Desafio de Projeto](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-desafio-de-projeto)
+- [Objetivos](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#%EF%B8%8F-objetivos)  
+  [x] [Pré-requisitos](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-pr%C3%A9-requisitos)  
+  [x] [O que será feito?](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-o-que-ser%C3%A1-feito)   
+  [x] [Passo a Passo](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-passo-a-passo)  
+  [x] [Modelo de Uso](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-modelo-de-uso)  
+  [x] [O que é JSON?](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-o-que-%C3%A9-json)  
+  [x] [Casos de Uso](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-casos-de-uso)      
+  [x] [Dica Extra](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-dica-extra)    
+- [Recursos Adicionais](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-dica-extra)
 
-### Introdução
+### ▶️ Introdução
 O `Microsoft Azure` é uma plataforma de nuvem que disponibiliza uma variedade de serviços, distribuídos em várias categorias. Este guia foi elaborado para ajudá-lo a navegar pelo portal do Azure e encontrar facilmente os serviços que você precisa.
 
 ### 🎯 Desafio de Projeto
@@ -38,7 +38,7 @@ O `Azure Machine Learning Studio` (ML Studio) é um ambiente de desenvolvimento 
 4. Implantar como serviço web
 
 #### 🚀 Passo a Passo
-1. Acesse o Azure ML Studio
+1. Acesse o `Azure ML Studio`
 - Link: https://ml.azure.com
 - Faça login com sua conta Microsoft
 
@@ -48,8 +48,8 @@ O `Azure Machine Learning Studio` (ML Studio) é um ambiente de desenvolvimento 
 - Preencha as informações e crie o Workspace
 
 3. Faça Upload do Dataset
-- Acesse o ML Studio
-- Vá até Datasets > + Create Dataset
+- Acesse o `ML Studio`
+- Vá até `Datasets` > + `Create Dataset`
 - Escolha From local files
 - Dê um nome, defina os tipos de coluna e finalize
 
