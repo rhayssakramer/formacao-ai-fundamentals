@@ -15,10 +15,10 @@ Este repositório corresponde ao Desafio #02 da  [Bootcamp Microsoft - Fundament
 - [Recursos Adicionais]()
 
 ### Introdução
-O Microsoft Azure é uma plataforma de nuvem que disponibiliza uma variedade de serviços, distribuídos em várias categorias. Este guia foi elaborado para ajudá-lo a navegar pelo portal do Azure e encontrar facilmente os serviços que você precisa.
+O `Microsoft Azure` é uma plataforma de nuvem que disponibiliza uma variedade de serviços, distribuídos em várias categorias. Este guia foi elaborado para ajudá-lo a navegar pelo portal do Azure e encontrar facilmente os serviços que você precisa.
 
 ### 🎯 Desafio de Projeto
-Este projeto apresenta um passo a passo de como realizar reconhecimento facial e transformar imagens em dados tabulares usando o Azure Machine Learning Studio e os serviços cognitivos da Microsoft Azure. Ele demonstra o uso dos serviços da plataforma Azure AI Vision Studio, uma ferramenta poderosa da Microsoft voltada para análise de imagens usando inteligência artificial.
+Este projeto apresenta um passo a passo de como realizar reconhecimento facial e transformar imagens em dados tabulares usando o `Azure Machine Learning Studio` e os serviços cognitivos da Microsoft Azure. Ele demonstra o uso dos serviços da plataforma `Azure AI Vision Studio`, uma ferramenta poderosa da Microsoft voltada para análise de imagens usando inteligência artificial.
 
 ### 🛠️ Objetivos
 O objetivo é praticar a criação de reconhecimento facial, identificação de dados em documentos e também o reconhecimento de elementos em imagens. Através desses exercícios, aprimoraremos nossas habilidades na aplicação prática de tecnologias de reconhecimento, proporcionando uma compreensão mais profunda e prática desses conceitos essenciais. 
@@ -31,23 +31,23 @@ O objetivo é praticar a criação de reconhecimento facial, identificação de 
 5. Imagens faciais para teste (com autorização legal de uso)
 
 #### 🧠 O que será feito?
-Utilizando uma imagem de exemplo, o Azure Vision Studio foi capaz de detectar com precisão os rostos presentes na imagem e identificar atributos associados a cada um deles.
-1. Upload de imagens para o Azure ML
-2. Utilização da API de Face Recognition (Azure Cognitive Services)
+Utilizando uma imagem de exemplo, o `Azure Vision Studio` foi capaz de detectar com precisão os rostos presentes na imagem e identificar atributos associados a cada um deles.
+1. Upload de imagens para o `Azure ML`
+2. Utilização da API de Face Recognition `(Azure Cognitive Services)`
 3. Extração de dados faciais (posição, emoção, idade estimada etc.)
 4. Armazenamento dos dados em formato tabular para uso em modelos de ML
 
 #### 🚀 Passo a Passo
-1. Acesse o Azure Machine Learning Studio
+1. Acesse o `Azure Machine Learning Studio`
 - Vá para https://ml.azure.com
 - Selecione ou crie um workspace
 
 2. Crie um novo pipeline (Designer)
-- Vá para Designer
+- Vá para `Designer`
 - Clique em + `New pipeline`
 - Selecione o dataset com as imagens ou faça o upload diretamente
 
-3. Adicione o módulo “Cognitive Services – Face”
+3. Adicione o módulo `Cognitive Services – Face`
 - Clique em `Add module`
 - Procure por `Cognitive Services - Face`
 - Insira o endpoint e chave da API Face que você obteve no portal do Azure  
@@ -73,7 +73,7 @@ Utilizando uma imagem de exemplo, o Azure Vision Studio foi capaz de detectar co
 - Exporte os dados para análise posterior com Excel, Power BI, Python etc.  
 
 #### 🖼️ Geração de Legendas para Imagens
-Nesta etapa do projeto, utilizamos o recurso Add captions to images do Azure Vision Studio, que permite gerar descrições automáticas para imagens com base em visão computacional e modelos de linguagem.
+Nesta etapa do projeto, utilizamos o recurso Add captions to images do `Azure Vision Studio`, que permite gerar descrições automáticas para imagens com base em visão computacional e modelos de linguagem.
 
 🔍 **Exemplo de Legenda Gerada**  
 Imagem utilizada:
