@@ -1,24 +1,94 @@
 ## 🤖 Trabalhando com Machine Learning na Prática no Azure ML
 
-Este repositório corresponde ao Desafio #01 da  [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089) para aprender a criar nossa conta no Azure e explorar as capacidades de Machine Learning da plataforma para desenvolver nossa primeira automação prática. Ao aplicar implementações e soluções escaláveis de aprendizado de máquina na nuvem da Microsoft, adquiriremos conhecimentos valiosos e experiência na construção de soluções eficientes. 
+Este repositório corresponde ao Desafio #01 da  [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089) para aprender a criar nossa conta no Azure e explorar as capacidades de `Machine Learning` da plataforma para desenvolver nossa primeira automação prática. Ao aplicar implementações e soluções escaláveis de aprendizado de máquina na nuvem da Microsoft, adquiriremos conhecimentos valiosos e experiência na construção de soluções eficientes. 
 
 ### Índice
 - [Introdução]()
-- [Acessando o Portal do Azure]()
-- [Localizando Serviços por Categoria]()
+- [Desafio de Projeto]()
+- [Objetivos]()  
+  [x] [Pré-requisitos]()  
+  [x] [O que será feito?]()   
+  [x] [Passo a Passo]()  
+  [x] [Modelo de Uso]()  
+  [x] [O que é JSON?]()  
+  [x] [Casos de Uso]()      
+  [x] [Dica Extra]()    
 - [Recursos Adicionais]()
 
 ### Introdução
-O Microsoft Azure é uma plataforma de nuvem que disponibiliza uma variedade de serviços, distribuídos em várias categorias. Este guia foi elaborado para ajudá-lo a navegar pelo portal do Azure e encontrar facilmente os serviços que você precisa.
+O `Microsoft Azure` é uma plataforma de nuvem que disponibiliza uma variedade de serviços, distribuídos em várias categorias. Este guia foi elaborado para ajudá-lo a navegar pelo portal do Azure e encontrar facilmente os serviços que você precisa.
 
-### Acessando o Portal do Azure
-1. Abra seu navegador e acesse [Portal do Azure](portal.azure.com).
-2. Faça login com suas credenciais da Microsoft.
+### 🎯 Desafio de Projeto
+Este projeto apresenta um guia prático para construção e implantação de modelos de `Machine Learning` (ML) usando a plataforma `Azure Machine Learning Studio`. Ideal para quem quer explorar AutoML, criar pipelines e publicar modelos como API de forma acessível e sem precisar programar tudo do zero.
 
-### Localizando Serviços por Categoria
-No Azure, os serviços são classificados em categorias como Computação, Rede, Armazenamento, entre outras. Vamos entender como acessar serviços específicos dentro de cada uma dessas categorias.
+### 🛠️ Objetivos
+O objetivo é aprender a criar nossa conta no Azure e explorar as capacidades de Machine Learning da plataforma para desenvolver nossa primeira automação prática. Ao aplicar implementações e soluções escaláveis de aprendizado de máquina na nuvem da Microsoft, adquiriremos conhecimentos valiosos e experiência na construção de soluções eficientes.
 
-#### 🎯 Desafio de Projeto
+#### 📌 Pré-requisitos
+1. Abrir seu navegador e acessar [Portal do Azure](portal.azure.com).
+2. Fazer login com suas credenciais da Microsoft.
+3. Acesse o [Azure Machine Learning Studio](https://ml.azure.com/)
+4. Um dataset disponível para upload (CSV, Excel, ou JSON)
+
+#### 🧠 O que será feito?
+O `Azure Machine Learning Studio` (ML Studio) é um ambiente de desenvolvimento completo na nuvem que permite:
+1. Criar modelos de ML com código ou no estilo "arrastar e soltar"
+2. Utilizar AutoML para treinar modelos automaticamente
+3. Avaliar e comparar modelos
+4. Implantar como serviço web
+
+#### 🚀 Passo a Passo
+1. Acesse o Azure ML Studio
+- Link: https://ml.azure.com
+- Faça login com sua conta Microsoft
+
+2. Crie um Workspace
+- No portal Azure, vá em `Criar um recurso`
+- Procure por `Machine Learning`
+- Preencha as informações e crie o Workspace
+
+3. Faça Upload do Dataset
+- Acesse o ML Studio
+- Vá até Datasets > + Create Dataset
+- Escolha From local files
+- Dê um nome, defina os tipos de coluna e finalize
+
+>Exemplo de dataset: previsão de churn, previsão de preços, saúde, vendas etc.
+
+4. Use o AutoML (Machine Learning Automático)
+- Vá até `Automated ML`
+- Clique em + `New automated ML` run
+- Selecione o dataset que você enviou
+- Escolha:
+  - Tipo de experimento (Classificação, Regressão ou Séries Temporais)
+  - Variável alvo (coluna que será prevista)
+- Configure os parâmetros e execute
+
+5. Avalie os Resultados
+- Após a execução, acesse a aba de métricas:
+  - Acurácia
+  - AUC
+  - RMSE (se regressão)
+- Compare os modelos e visualize as explicações (interpretabilidade)
+
+6. Implante o Modelo como Web Service
+- Selecione o melhor modelo
+- Clique em `Deploy`
+- Escolha `Real-time Endpoint`
+- Após a implantação, você terá:
+  - URL do endpoint
+  - Chave de acesso para autenticação
+  - Documentação com exemplo de uso via API
+
+**Exemplo de Requisição para Previsão via API**
+```
+curl -X POST https://<seu-endpoint>.azurewebsites.net/score \
+-H "Content-Type: application/json" \
+-H "Authorization: Bearer <sua-chave>" \
+-d '{"data": [{"idade": 25, "salario": 4000, "cidade": "Recife"}]}'
+```
+
+### 🔧 Modelo de Uso
 
 #### 📁 Etapa 1: Preparar os dados
 Utilize o arquivo .csv, que contém 60 exemplos sintéticos com a seguinte estrutura:
@@ -27,8 +97,6 @@ Utilize o arquivo .csv, que contém 60 exemplos sintéticos com a seguinte estru
 |             |           |             |          |            |
 |             |           |             |          |            |
 |             |           |        |    |          |            |
-
-🔗 Carreguei o arquivo no repositório para quem quiser utilizar.
 
 
 #### 🧠 Etapa 2: Criar a tarefa no Azure AutoML
@@ -44,7 +112,7 @@ Utilize o arquivo .csv, que contém 60 exemplos sintéticos com a seguinte estru
 - Coluna alvo: 
 - Tipo de tarefa: Regressão
 
-🔧 Ajuste de validação cruzada
+**Ajuste de validação cruzada**
 Na aba Validation (Validação):
 - Validation type → K-Fold cross validation
 - Number of cross validations (folds) → 3
@@ -56,7 +124,7 @@ Com 60 registros, usar 3 divisões já garante robustez sem perda de dados.
 - Ao final da execução, será exibida uma lista com os modelos testados
 - Escolha o modelo com menor erro (como RMSE ou MAE)
 
-##### 🌐 Etapa 5: Publicar o modelo como um endpoint
+#### 🌐 Etapa 5: Publicar o modelo como um endpoint
 1. Clique no melhor modelo e selecione Deploy
 2. Dê um nome ao serviço, como modelo-produtos
 3. Clique em Deploy
@@ -81,7 +149,7 @@ Com 60 registros, usar 3 divisões já garante robustez sem perda de dados.
 ```
 5. Clique em Run inference para ver o resultado da previsão.
 
-#### 🧱 O que é JSON?
+### 🧱 O que é JSON?
 JSON (JavaScript Object Notation) é uma forma de representar dados estruturados, como se fosse uma ficha de cadastro que o computador entende.
 
 🛍️ Exemplo real: produto para prever o preço
@@ -116,8 +184,19 @@ No formato JSON:
 #### 👩‍💻 Explicando com analogia
 >
 
+### 💡 Casos de Uso
+- Previsão de evasão de clientes (Churn)
+- Diagnóstico de doenças
+- Previsão de vendas
+- Análise de risco de crédito
+
+### 🤝 Dica Extra
+Você pode usar Jupyter Notebooks integrados ao Azure ML Studio para customizar seus modelos com Python, além de reutilizar o modelo treinado com AutoML em pipelines mais avançados.
+
 ### 🗒️ Recursos Adicionais
 - [Documentação Oficial do Microsoft Azure](https://docs.microsoft.com/azure)
+- [Documentação do Azure ML](https://learn.microsoft.com/pt-br/azure/machine-learning/)
+- [Introdução ao AutoML no Azure](https://learn.microsoft.com/pt-br/azure/machine-learning/concept-automated-ml)
 
 ## 🔗 Créditos
 Este guia serve como repositório de estudos, desafios e projetos da [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089). Explore os recursos compartilhados necessários para atender às suas necessidades de nuvem.
