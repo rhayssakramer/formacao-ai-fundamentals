@@ -3,16 +3,16 @@
 Este repositório corresponde ao Desafio #04 da  [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089) para paplicar técnicas de organização e pesquisa de documentos por meio da ingestão de dados e indexação utilizando ferramentas de inteligência artificial.
 
 ### Índice
-- [Introdução]()
-- [Desafio do Projeto]())
-- [Objetivos]()  
-    [x] [Pré-requisitos]()  
-    [x] [Sobre o Azure Cognitive Search]()  
-    [x] [Etapas Realizadas]()  
-    [x] [Estrutura do Repositório]()  
-    [x] [Insights Obtidos]()  
-    [x] [Ferramentas e Tecnologias]()  
-- [Recursos Adicionais]()
+- [Introdução](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2304-Azure-Cognitive-%20Search-Utilizando-AI-Search-para-indexa%C3%A7%C3%A3o-e-consulta-de-Dados#%EF%B8%8F-introdu%C3%A7%C3%A3o)
+- [Desafio do Projeto](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2304-Azure-Cognitive-%20Search-Utilizando-AI-Search-para-indexa%C3%A7%C3%A3o-e-consulta-de-Dados#-desafio-de-projeto)
+- [Objetivos](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2304-Azure-Cognitive-%20Search-Utilizando-AI-Search-para-indexa%C3%A7%C3%A3o-e-consulta-de-Dados#%EF%B8%8F-objetivos)  
+    [x] [Pré-requisitos](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2304-Azure-Cognitive-%20Search-Utilizando-AI-Search-para-indexa%C3%A7%C3%A3o-e-consulta-de-Dados#-pr%C3%A9-requisitos)  
+    [x] [Sobre o Azure Cognitive Search](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2304-Azure-Cognitive-%20Search-Utilizando-AI-Search-para-indexa%C3%A7%C3%A3o-e-consulta-de-Dados#-sobre-o-azure-cognitive-search)  
+    [x] [Etapas Realizadas](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2304-Azure-Cognitive-%20Search-Utilizando-AI-Search-para-indexa%C3%A7%C3%A3o-e-consulta-de-Dados#%EF%B8%8F-etapas-realizadas)  
+    [x] [Estrutura do Repositório](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2304-Azure-Cognitive-%20Search-Utilizando-AI-Search-para-indexa%C3%A7%C3%A3o-e-consulta-de-Dados#-estrutura-do-reposit%C3%B3rio)  
+    [x] [Insights Obtidos](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2304-Azure-Cognitive-%20Search-Utilizando-AI-Search-para-indexa%C3%A7%C3%A3o-e-consulta-de-Dados#-insights-obtidos)  
+    [x] [Ferramentas e Tecnologias](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2304-Azure-Cognitive-%20Search-Utilizando-AI-Search-para-indexa%C3%A7%C3%A3o-e-consulta-de-Dados#%EF%B8%8F-ferramentas-e-tecnologias)  
+- [Recursos Adicionais](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2304-Azure-Cognitive-%20Search-Utilizando-AI-Search-para-indexa%C3%A7%C3%A3o-e-consulta-de-Dados#%EF%B8%8F-recursos-adicionais)
 
 ### ▶️ Introdução
 O `Microsoft Azure` é uma plataforma de nuvem que disponibiliza uma variedade de serviços, distribuídos em várias categorias. Este guia foi elaborado para ajudá-lo a navegar pelo portal do Azure e encontrar facilmente os serviços que você precisa.
