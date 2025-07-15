@@ -22,7 +22,8 @@ Veja os projetos e desafios que completei durante o bootcamp e a formação:
 - [Desafio 1: Trabalhando com Machine Learning na Prática no Azure ML](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML)
 - [Desafio 2: Reconhecimento Facial e transformação de imagens em Dados no Azure ML](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2302-Reconhecimento-Facial-e-transformacao-de-imagens-em-Dados-no-Azure-ML)
 - [Desafio 3: Análise de Sentimentos com Language Studio no Azure AI](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI) 
-- [Desafio 4: Explorando os Recursos de IA Generativa com Copilot e OpenAI]()
+- [Desafio 4: Azure Cognitive Search: Utilizando AI Search para indexação e consulta de Dados](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2304-Azure-Cognitive-Search-Utilizando-AI-Search-para-indexa%C3%A7%C3%A3o-e-consulta-de-Dados)
+- [Desafio 5: Explorando os Recursos de IA Generativa com Copilot e OpenAI]()
 
 ### 🔗 Links Úteis
 - [Portal do Azure](https://portal.azure.com/)
