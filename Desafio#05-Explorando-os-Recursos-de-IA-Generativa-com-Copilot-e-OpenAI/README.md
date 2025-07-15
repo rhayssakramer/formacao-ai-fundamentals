@@ -6,12 +6,12 @@ Este repositório corresponde ao Desafio #05 da  [Bootcamp Microsoft - Fundament
 - [Introdução]()
 - [Desafio do Projeto]()
 - [Objetivos]()  
-    [x] [Pré-requisitos]()
-    [x] [Estrutura do Repositório]() 
-    [x] [Como Usar]()  
-    [x] [Exemplos de Prompts para IA Generativa]()   
-    [x] [Dicas para Filtro de Conteúdo Responsável]() 
-    [x] [Mini Tutorial de Uso do GitHub Copilot no VS Code]() 
+    [x] [Pré-requisitos]()  
+    [x] [Estrutura do Repositório]()   
+    [x] [Como Usar]()    
+    [x] [Exemplos de Prompts para IA Generativa]()     
+    [x] [Dicas para Filtro de Conteúdo Responsável]()   
+    [x] [Mini Tutorial de Uso do GitHub Copilot no VS Code]()   
 - [Recursos Adicionais]()
 
 ### ▶️ Introdução
