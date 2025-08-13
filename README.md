@@ -1,6 +1,12 @@
-## 🤖 Formação AI Fundamentals
+<img src="./img/topo.png">  
 
-Este repositório corresponde ao compliado de conteúdos utilizados na [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e na [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089). Aqui você irá encontrar meus desafios, projetos, recursos e links úteis utilizados para concluir a bootcamp e a formação.
+# 🤖 Formação AI Fundamentals
+
+<div align="justify">
+  <img src="./img/ai-900.png" align="left" width="80"> 
+  <span align="right" align-items="justify">Este repositório corresponde ao compliado de conteúdos utilizados na [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e na [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089). Aqui você irá encontrar meus desafios, projetos, recursos e links úteis utilizados para concluir a bootcamp e a formação.
+  </span>
+</div>
 
 ### 🗂️ O que você encontrará aqui?
 Este repositório está organizado para armazenar e gerenciar todos os materiais do bootcamp e da formação, assim como os desafios, links úteis, estudos e outros recursos.
