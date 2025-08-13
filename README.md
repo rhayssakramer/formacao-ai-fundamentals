@@ -61,4 +61,4 @@ Este repositório foi desenvolvido como guia de estudos da Bootcamp Microsoft - 
   </tr>
 </table>
 
-<div align="center"><a href="https://github.com/rhayssakramer"><img src="https://github.com/rhayssakramer/rhayssakramer/blob/main/img/rodape.png"></a></div>
+<div align="center"><a href="https://github.com/rhayssakramer/rhayssakramer/blob/main/img/rodape.png"></a></div>
