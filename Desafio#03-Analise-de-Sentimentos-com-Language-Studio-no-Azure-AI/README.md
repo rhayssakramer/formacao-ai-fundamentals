@@ -1,8 +1,8 @@
-## 🤖 Análise de Sentimentos com Language Studio no Azure AI
+# 🤖 Análise de Sentimentos com Language Studio no Azure AI
 
 Este repositório corresponde ao Desafio #03 da  [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089) para praticar e aprofundar o uso das ferramentas `Azure Speech Studio` e `Language Studio`, focando na análise de fala e linguagem natural. 
 
-### Índice
+## 📑 Índice
 - [Introdução](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#introdu%C3%A7%C3%A3o)
 - [Tecnologias Utilizadas]()
 - [Desafio do Projeto](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#-desafio-de-projeto)
@@ -10,8 +10,10 @@ Este repositório corresponde ao Desafio #03 da  [Bootcamp Microsoft - Fundament
   - [x] [Pré-requisitos](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#-pr%C3%A9-requisitos)  
   - [x] [Estrutura do Repositório]()
   - [x] [Tecnologias e Ferramentas]()
-  - [x] [O que é o Language Studio?](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#-o-que-%C3%A9-o-language-studio)  
-  - [x] [Passo a Passo: Análise de Sentimentos](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#-passo-a-passo-an%C3%A1lise-de-sentimentos)  
+  - [x] [O que será feito?]()
+  - [x] [Passo a Passo](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#-passo-a-passo-an%C3%A1lise-de-sentimentos)  
+- [O que é o Language Studio?](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#-o-que-%C3%A9-o-language-studio)  
+- [Análise de Sentimento]()  
 - [Recursos Adicionais](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#%EF%B8%8F-recursos-adicionais)
 - [Créditos]()
 - [Autora]()
@@ -77,28 +79,26 @@ O objetivo é desenvolver habilidades práticas na criação de soluções basea
 - VS Code
 - Jupyter Notebook
 
-#### 🧠 O que é o Language Studio?
-O `Language Studio` é uma interface gráfica que permite usar os serviços de linguagem do `Azure (Cognitive Services)` sem precisar programar. Ele fornece recursos como:
-- Análise de sentimentos
-- Extração de entidades
-- Tradução de texto
-- Classificação personalizada
+#### 🧠 O que será feito?
+Neste projeto, você irá:
+- Explorar o `Azure Language Studio` para analisar textos e entender o processamento de linguagem natural (PLN).
+- Configurar e utilizar a Análise de Sentimentos, identificando se o conteúdo textual apresenta sentimentos positivos, negativos ou neutros.
+- Testar diferentes entradas de texto para observar como o modelo classifica emoções e opiniões.
+- Visualizar e interpretar os resultados, incluindo scores e representações gráficas de sentimento.
+- Registrar aprendizados e insights, criando um repositório de referência para futuras aplicações de IA Cognitiva e PLN.
 
-#### 🚀 Passo a Passo: Análise de Sentimentos
+#### 🚀 Passo a Passo
 1. Acesse o `Language Studio`
 - Vá para https://language.azure.com/
 - Faça login com sua conta Microsoft.
-
 2. Escolha a opção `Análise de Texto`
 - Clique em `Explorar todas as capacidades`
 - Selecione `Análise de Texto`
 - Clique em `Experimentar` ou `Criar projeto`
-
 3. Selecione `Análise de Sentimento`
 - Escolha o recurso `Análise de Sentimento` (Sentiment Analysis)
 - Configure o idioma (ex: pt para português)
 - Insira o texto de exemplo (ex: "Estou muito feliz com esse produto!")
-
 4. Visualize os resultados
 - O `Language Studio` vai retornar:
 - Score geral de sentimento (positivo, negativo ou neutro)
@@ -115,7 +115,18 @@ O `Language Studio` é uma interface gráfica que permite usar os serviços de l
 - Primeira frase → Sentimento Positivo (score próximo de 1.0)
 - Segunda frase → Sentimento Negativo (score próximo de 0.0)
 
-### 🗒️ Recursos Adicionais
+### 🧠 O que é o Language Studio?
+O Language Studio é uma interface gráfica que permite usar os serviços de linguagem do Azure (Cognitive Services) sem precisar programar. Ele fornece recursos como:
+
+Análise de sentimentos
+Extração de entidades
+Tradução de texto
+Classificação personalizada
+
+### 🤖 Análise de Sentimento
+A Análise de Sentimento permite que você compreenda as emoções expressas em textos, classificando-os como positivos, negativos ou neutros. É uma das aplicações práticas de `Processamento de Linguagem Natural` (PLN) e Inteligência Artificial Cognitiva no Azure AI.
+
+## 🗒️ Recursos Adicionais
 - [Documentação Oficial do Microsoft Azure](https://docs.microsoft.com/azure)
 - [Documentação oficial do Azure AI Language](https://learn.microsoft.com/pt-br/azure/ai-services/language-service/overview)
 - [Tutorial: Como usar a Análise de Texto no Language Studio](https://learn.microsoft.com/pt-br/azure/ai-services/language-service/sentiment-opinion-mining/overview)
@@ -123,11 +134,11 @@ O `Language Studio` é uma interface gráfica que permite usar os serviços de l
 - [Analyze text with Language Studio - Laboratório no Microsoft Learning](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/06-text-analysis.html)
 
 ## 🔗 Créditos
-Este guia serve como repositório de estudos, desafios e projetos da [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089). Explore os recursos compartilhados necessários para atender às suas necessidades de nuvem.
+Este guia serve como repositório de estudos, desafios e projetos da [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089), para availar o ensinado sobre pratica e aprofundamento do uso das ferramentas `Azure Speech Studio` e `Language Studio`, focando na análise de fala e linguagem natural.
 
 *Nota: Este projeto é apenas para fins educacionais e não possui nenhuma afiliação oficial com a franquia DIO ou suas empresas associadas.*
 
-### 👩🏼‍💻 Autora:
+## 👩🏼‍💻 Autora:
 <table style="border=0">
   <tr>
     <td align="left">
