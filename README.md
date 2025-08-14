@@ -4,7 +4,7 @@
 
 <div align="justify">
   <img src="./img/ai-900.png" align="left" width="80"> 
-  <span align="right" align-items="justify">Este repositório corresponde ao compliado de conteúdos utilizados na [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e na [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089). Aqui você irá encontrar meus desafios, projetos, recursos e links úteis utilizados para concluir a bootcamp e a formação.
+  <span align="right" align-items="justify">Este repositório corresponde ao compliado de conteúdos utilizados na <a href="https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia">Bootcamp Microsoft - Fundamentos de IA</a> e na <a href="https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089">Formação Microsoft Azure AI Fundamentals (AI-900)]</a>. Aqui você irá encontrar meus desafios, projetos, recursos e links úteis utilizados para concluir a bootcamp e a formação.
   </span>
 </div>
 
@@ -43,12 +43,12 @@ Veja os projetos e desafios que completei durante o bootcamp e a formação:
 ## ▶️ Conclusão
 Este guia serve como repositório de estudos, desafios e projetos da [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089). Explore os recursos compartilhados necessários para atender às suas necessidades de nuvem.
 
-## 🖋️ Créditos
-Este repositório foi desenvolvido como guia de estudos da Bootcamp Microsoft - Fundamentos de IA e da Formação Microsoft Azure AI Fundamentals (AI-900), para avaliar o ensinado na bootcamp e formação sobre Azure com finalidade de obter Certificação AI-900. 
+## 🔗 Créditos
+Este repositório foi desenvolvido como guia de estudos da [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089), para avaliar o ensinado na bootcamp e formação sobre Azure com finalidade de obter Certificação AI-900. 
 
 *Nota: Este projeto é apenas para fins educacionais e não possui nenhuma afiliação oficial com a franquia DIO ou suas empresas associadas.*
 
-### 👩🏼‍💻 Autora:
+## 👩🏼‍💻 Autora:
 <table style="border=0">
   <tr>
     <td align="left">
