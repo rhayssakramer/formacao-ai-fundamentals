@@ -1,6 +1,6 @@
 ## 🤖 Trabalhando com Machine Learning na Prática no Azure ML
 
-Este repositório corresponde ao Desafio #01 da  [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089) para aprender a criar nossa conta no Azure e explorar as capacidades de `Machine Learning` da plataforma para desenvolver nossa primeira automação prática. Ao aplicar implementações e soluções escaláveis de aprendizado de máquina na nuvem da Microsoft, adquiriremos conhecimentos valiosos e experiência na construção de soluções eficientes. 
+Este repositório corresponde ao Desafio #01 da [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089) para aprender a criar nossa conta no Azure e explorar as capacidades de `Machine Learning` da plataforma para desenvolver nossa primeira automação prática. Ao aplicar implementações e soluções escaláveis de aprendizado de máquina na nuvem da Microsoft, adquiriremos conhecimentos valiosos e experiência na construção de soluções eficientes. 
 
 ### Índice
 - [Introdução](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#introdu%C3%A7%C3%A3o)
@@ -217,3 +217,4 @@ Este guia serve como repositório de estudos, desafios e projetos da [Bootcamp M
 </table>
 
 <div align="center"><a href="https://github.com/rhayssakramer"><img src="https://github.com/rhayssakramer/rhayssakramer/blob/main/img/by-devrhakramer.png" width="100"></a></div>
+
