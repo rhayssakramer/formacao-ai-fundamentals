@@ -1,8 +1,8 @@
-## 🤖 Reconhecimento Facial e transformação de imagens em Dados no Azure ML
+# 🤖 Reconhecimento Facial e transformação de imagens em Dados no Azure ML
 
 Este repositório corresponde ao Desafio #02 da  [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089) para praticar a criação de reconhecimento facial, identificação de dados em documentos e também o reconhecimento de elementos em imagens. Através desses exercícios, aprimoraremos nossas habilidades na aplicação prática de tecnologias de reconhecimento, proporcionando uma compreensão mais profunda e prática desses conceitos essenciais. 
 
-### Índice
+## 📑 Índice
 - [Introdução](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2302-Reconhecimento-Facial-e-transformacao-de-imagens-em-Dados-no-Azure-ML#introdu%C3%A7%C3%A3o)
 - [Tecnologias Utilizadas]()
 - [Desafio de Projeto](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2302-Reconhecimento-Facial-e-transformacao-de-imagens-em-Dados-no-Azure-ML#-desafio-de-projeto)
@@ -12,10 +12,9 @@ Este repositório corresponde ao Desafio #02 da  [Bootcamp Microsoft - Fundament
   - [x] [Ferramentas e Tecnologias]()
   - [x] [O que será feito?](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2302-Reconhecimento-Facial-e-transformacao-de-imagens-em-Dados-no-Azure-ML#-o-que-ser%C3%A1-feito)    
   - [x] [Passo a Passo](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2302-Reconhecimento-Facial-e-transformacao-de-imagens-em-Dados-no-Azure-ML#-passo-a-passo)  
-  - [x] [Geração de Legendas para Imagens](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2302-Reconhecimento-Facial-e-transformacao-de-imagens-em-Dados-no-Azure-ML#%EF%B8%8F-gera%C3%A7%C3%A3o-de-legendas-para-imagens)  
-  - [x] [Extração de Texto com OCR](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2302-Reconhecimento-Facial-e-transformacao-de-imagens-em-Dados-no-Azure-ML#-extra%C3%A7%C3%A3o-de-texto-com-ocr)  
-  - [x] [Resultado da Detecção](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2302-Reconhecimento-Facial-e-transformacao-de-imagens-em-Dados-no-Azure-ML#-resultado-da-detec%C3%A7%C3%A3o)  
-  - [x] [Exemplo de Saída(Tabela)]()
+- [Geração de Legendas para Imagens](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2302-Reconhecimento-Facial-e-transformacao-de-imagens-em-Dados-no-Azure-ML#%EF%B8%8F-gera%C3%A7%C3%A3o-de-legendas-para-imagens)  
+- [Extração de Texto com OCR](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2302-Reconhecimento-Facial-e-transformacao-de-imagens-em-Dados-no-Azure-ML#-extra%C3%A7%C3%A3o-de-texto-com-ocr)  
+- [Resultado da Detecção](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2302-Reconhecimento-Facial-e-transformacao-de-imagens-em-Dados-no-Azure-ML#-resultado-da-detec%C3%A7%C3%A3o)  
 - [Recursos Adicionais](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2302-Reconhecimento-Facial-e-transformacao-de-imagens-em-Dados-no-Azure-ML#%EF%B8%8F-recursos-adicionais)
 - [Créditos]()
 - [Autora]()
@@ -97,12 +96,10 @@ Utilizando uma imagem de exemplo, o `Azure Vision Studio` foi capaz de detectar 
 1. Acesse o `Azure Machine Learning Studio`
 - Vá para https://ml.azure.com
 - Selecione ou crie um workspace
-
 2. Crie um novo pipeline (Designer)
 - Vá para `Designer`
 - Clique em + `New pipeline`
 - Selecione o dataset com as imagens ou faça o upload diretamente
-
 3. Adicione o módulo `Cognitive Services – Face`
 - Clique em `Add module`
 - Procure por `Cognitive Services - Face`
@@ -111,7 +108,6 @@ Utilizando uma imagem de exemplo, o `Azure Vision Studio` foi capaz de detectar 
 - Vá até o portal: https://portal.azure.com
 - Crie um novo recurso → `Face`
 - Copie o endpoint e a chave de acesso
-
 4. Configure o módulo de Reconhecimento Facial
 - Selecione as opções de detecção:
   - Emoções
@@ -119,16 +115,14 @@ Utilizando uma imagem de exemplo, o `Azure Vision Studio` foi capaz de detectar 
   - Gênero
   - Posição dos olhos, boca etc.
 - Vincule o dataset de imagens ao módulo
-
 5. Execute o pipeline
 - Clique em `Run`
 - Após a execução, visualize os resultados na saída do módulo
-
 6. Transforme os dados em formato tabular
 - Use o módulo `Convert to CSV` ou `Extract Columns`
 - Exporte os dados para análise posterior com Excel, Power BI, Python etc.  
 
-#### 🖼️ Geração de Legendas para Imagens
+### 🖼️ Geração de Legendas para Imagens
 Nesta etapa do projeto, utilizamos o recurso Add captions to images do `Azure Vision Studio`, que permite gerar descrições automáticas para imagens com base em visão computacional e modelos de linguagem.
 
 🔍 Exemplo de Legenda Gerada  
@@ -139,7 +133,7 @@ Legenda detectada automaticamente:
 
 Essa legenda foi gerada de forma autônoma pela IA da Microsoft, sem necessidade de intervenção manual, demonstrando como o modelo consegue interpretar contextos visuais de maneira precisa e eficiente.
 
-#### 🧾 Extração de Texto com OCR 
+### 🧾 Extração de Texto com OCR 
 Na terceira etapa, utilizamos o serviço Extract text from images do Azure Vision Studio, que aplica OCR para reconhecer e extrair texto presente em imagens.
 
 🖼️ Exemplo de Imagem  
@@ -147,7 +141,7 @@ O serviço foi capaz de identificar todos os textos contidos na imagem de um car
 
 ✨ Texto Extraído: 
 
-#### 🔍 Resultado da Detecção
+### 🔍 Resultado da Detecção
 A ferramenta fornece caixas delimitadoras para cada rosto detectado, além de um painel lateral com os atributos reconhecidos, que também podem ser acessados em formato JSON para uso posterior em aplicações ou treinamento de modelos.
 
 A imagem abaixo foi processada com o recurso Detect faces in an image:
@@ -165,13 +159,13 @@ Atributos detectados:
 | pessoa1.jpg    | Feliz               | 29             | Feminino  | X=112, Y=88       |
 | pessoa2.jpg    | Neutro              | 41             | Masculino | X=95, Y=102       |
 
-### 🗒️ Recursos Adicionais
+## 🗒️ Recursos Adicionais
 - [Documentação Oficial do Microsoft Azure](https://docs.microsoft.com/azure)
 - [Documentação da Face API](https://learn.microsoft.com/pt-br/azure/cognitive-services/face/)
 - [Documentação do Azure ML Studio](https://learn.microsoft.com/pt-br/azure/machine-learning/)
 
 ## 🔗 Créditos
-Este guia serve como repositório de estudos, desafios e projetos da [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089). Explore os recursos compartilhados necessários para atender às suas necessidades de nuvem.
+Este guia serve como repositório de estudos, desafios e projetos da [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089), para avaliar o ensinado sobre a criação de reconhecimento facial, identificação de dados em documentos e também o reconhecimento de elementos em imagens.
 
 *Nota: Este projeto é apenas para fins educacionais e não possui nenhuma afiliação oficial com a franquia DIO ou suas empresas associadas.*
 
