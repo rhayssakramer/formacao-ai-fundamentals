@@ -1,8 +1,8 @@
-## 🤖 Azure Cognitive Search: Utilizando AI Search para indexação e consulta de Dados
+# 🤖 Azure Cognitive Search: Utilizando AI Search para indexação e consulta de Dados
 
-Este repositório corresponde ao Desafio #04 da  [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089) para paplicar técnicas de organização e pesquisa de documentos por meio da ingestão de dados e indexação utilizando ferramentas de inteligência artificial.
+Este repositório corresponde ao Desafio #04 da  [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089) para aplicar técnicas de organização e pesquisa de documentos por meio da ingestão de dados e indexação utilizando ferramentas de inteligência artificial.
 
-### Índice
+## 📑 Índice
 - [Introdução](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2304-Azure-Cognitive-%20Search-Utilizando-AI-Search-para-indexa%C3%A7%C3%A3o-e-consulta-de-Dados#%EF%B8%8F-introdu%C3%A7%C3%A3o)
 - [Tecnologias Utilizadas]()
 - [Desafio do Projeto](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2304-Azure-Cognitive-%20Search-Utilizando-AI-Search-para-indexa%C3%A7%C3%A3o-e-consulta-de-Dados#-desafio-de-projeto)
@@ -10,9 +10,11 @@ Este repositório corresponde ao Desafio #04 da  [Bootcamp Microsoft - Fundament
   - [x] [Pré-requisitos](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2304-Azure-Cognitive-%20Search-Utilizando-AI-Search-para-indexa%C3%A7%C3%A3o-e-consulta-de-Dados#-pr%C3%A9-requisitos)  
   - [x] [Estrutura do Repositório]()
   - [x] [Ferramentas e Tecnologias](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2304-Azure-Cognitive-%20Search-Utilizando-AI-Search-para-indexa%C3%A7%C3%A3o-e-consulta-de-Dados#%EF%B8%8F-ferramentas-e-tecnologias) 
-  - [x] [Sobre o Azure Cognitive Search](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2304-Azure-Cognitive-%20Search-Utilizando-AI-Search-para-indexa%C3%A7%C3%A3o-e-consulta-de-Dados#-sobre-o-azure-cognitive-search)  
+  - [x] [O que será feito?]()
+  - [x] [Passo a Passo]()
+- [Sobre o Azure Cognitive Search](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2304-Azure-Cognitive-%20Search-Utilizando-AI-Search-para-indexa%C3%A7%C3%A3o-e-consulta-de-Dados#-sobre-o-azure-cognitive-search)  
   - [x] [Etapas Realizadas](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2304-Azure-Cognitive-%20Search-Utilizando-AI-Search-para-indexa%C3%A7%C3%A3o-e-consulta-de-Dados#%EF%B8%8F-etapas-realizadas)   
-  - [x] [Insights Obtidos](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2304-Azure-Cognitive-%20Search-Utilizando-AI-Search-para-indexa%C3%A7%C3%A3o-e-consulta-de-Dados#-insights-obtidos)   
+- [Insights Obtidos](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2304-Azure-Cognitive-%20Search-Utilizando-AI-Search-para-indexa%C3%A7%C3%A3o-e-consulta-de-Dados#-insights-obtidos)   
 - [Recursos Adicionais](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2304-Azure-Cognitive-%20Search-Utilizando-AI-Search-para-indexa%C3%A7%C3%A3o-e-consulta-de-Dados#%EF%B8%8F-recursos-adicionais)
 - [Créditos]()
 - [Autora]()
@@ -73,7 +75,7 @@ O objetivo é compreender como ferramentas cognitivas podem ser aplicadas para *
 └── 📄 LICENSE                      # Licença do projeto
 ```
 
-#### 🛠️ Ferramentas e Tecnologias
+#### ⚙️ Ferramentas e Tecnologias
 - Azure Cognitive Search
 - Azure Blob Storage
 - Cognitive Services (OCR, Text Analytics, Language Detection)
@@ -82,7 +84,7 @@ O objetivo é compreender como ferramentas cognitivas podem ser aplicadas para *
 - Git
 - Python
 
-#### 🧠 Sobre o Azure Cognitive Search
+### 🧠 Sobre o Azure Cognitive Search
 O `Azure Cognitive Search` é um serviço da Microsoft que permite:
 - Indexar dados estruturados e não estruturados
 - Enriquecer documentos com IA (OCR, reconhecimento de entidade, tradução, etc.)
@@ -111,22 +113,22 @@ O `Azure Cognitive Search` é um serviço da Microsoft que permite:
   - Documentos com maior densidade informativa
   - Correlação de entidades
 
-#### 💡 Insights Obtidos
+### 💡 Insights Obtidos
 - A aplicação de IA na indexação permite acelerar o processo de **descoberta de informação** em arquivos diversos.
 - Os **skillsets cognitivos** são essenciais para transformar dados não estruturados em conhecimento consultável.
 - A combinação de **OCR, linguagem natural e detecção de entidades** torna o Azure Cognitive Search ideal para automação de análise documental.
 
-### 🗒️ Recursos Adicionais
+## 🗒️ Recursos Adicionais
 - [Documentação Oficial do Microsoft Azure](https://docs.microsoft.com/azure)
 - [Documentação Azure Cognitive Search](https://learn.microsoft.com/pt-br/azure/search/search-what-is-azure-search)
 - [Explore an Azure AI Search index (UI) - Laboratório no Microsoft Learning](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/11-ai-search.html)
 
 ## 🔗 Créditos
-Este guia serve como repositório de estudos, desafios e projetos da [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089). Explore os recursos compartilhados necessários para atender às suas necessidades de nuvem.
+Este guia serve como repositório de estudos, desafios e projetos da [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089), avaliando o ensinado sobre aplicar técnicas de organização e pesquisa de documentos por meio da ingestão de dados e indexação utilizando ferramentas de inteligência artificial.
 
 *Nota: Este projeto é apenas para fins educacionais e não possui nenhuma afiliação oficial com a franquia DIO ou suas empresas associadas.*
 
-### 👩🏼‍💻 Autora:
+## 👩🏼‍💻 Autora:
 <table style="border=0">
   <tr>
     <td align="left">
