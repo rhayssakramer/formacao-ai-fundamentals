@@ -44,7 +44,7 @@ Veja os projetos e desafios que completei durante o bootcamp e a formação:
 Este guia serve como repositório de estudos, desafios e projetos da [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089). Explore os recursos compartilhados necessários para atender às suas necessidades de nuvem.
 
 ## 🖋️ Créditos
-Este repositório foi desenvolvido como guia de estudos da Bootcamp Microsoft - Fundamentos de IA e da Formação Microsoft Azure AI Fundamentals (AI-900), para avaliar o ensinado na bootcamp e formação sobre Azure com finalidade de obter Certificação AI-900.
+Este repositório foi desenvolvido como guia de estudos da Bootcamp Microsoft - Fundamentos de IA e da Formação Microsoft Azure AI Fundamentals (AI-900), para avaliar o ensinado na bootcamp e formação sobre Azure com finalidade de obter Certificação AI-900. 
 
 *Nota: Este projeto é apenas para fins educacionais e não possui nenhuma afiliação oficial com a franquia DIO ou suas empresas associadas.*
 
