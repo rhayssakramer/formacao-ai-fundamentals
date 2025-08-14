@@ -84,6 +84,39 @@ O objetivo é compreender como ferramentas cognitivas podem ser aplicadas para *
 - Git
 - Python
 
+#### 🧠 O que será feito?
+Neste desafio, você irá:
+- Ingerir e organizar dados de diferentes formatos (PDF, DOCX, imagens) utilizando o `Azure Blob Storage`.
+- Aplicar Skillsets cognitivos do Azure Cognitive Search para enriquecer os documentos com IA, incluindo OCR, análise de entidades e detecção de linguagem.
+- Criar `índices inteligentes` que permitam consultas rápidas e eficientes sobre grandes volumes de informação.
+- Explorar os dados indexados por meio de filtros, facetas, ordenação e extração de insights relevantes.
+- Testar consultas e validar os resultados, garantindo que os documentos estejam corretamente indexados e acessíveis.
+- Registrar aprendizados e melhores práticas para utilização de ferramentas cognitivas em projetos futuros de pesquisa e análise de dados.
+
+#### 🚀 Passo a Passo
+1. Preparar os dados
+- Organize seus arquivos (PDF, DOCX, imagens) em pastas dentro do repositório ou faça upload no `Azure Blob Storage`.
+- Garanta que os arquivos estejam corretamente nomeados e estruturados para facilitar a indexação.
+2. Criar o serviço de Azure Cognitive Search
+- No [Portal do Azure](https://portal.azure.com/), crie um recurso de Azure Cognitive Search.
+- Configure o plano, localização e recursos necessários.
+3. Configurar data sources e skillsets
+- Defina `Data Sources` apontando para o local dos dados no Azure Blob Storage.
+- Crie `Skillsets cognitivos` para aplicar OCR, detecção de linguagem, análise de entidades e enriquecimento de conteúdo.
+4. Criar o índice
+- Defina os campos pesquisáveis (ex: title, content, metadata).
+- Configure o indexador para processar os dados e aplicar os skillsets.
+- Execute o indexador e valide se os dados foram processados corretamente.
+5. Testar consultas
+- Utilize o painel do `Azure Cognitive Search` ou scripts em `Python` para realizar consultas.
+- Experimente filtros, facetas e ordenações para refinar os resultados.
+6. Explorar insights
+- Analise os dados indexados para identificar palavras-chave, entidades e padrões.
+- Salve relatórios e resumos dos insights obtidos para referência futura.
+7. Registrar aprendizados
+- Documente boas práticas, limitações e observações sobre o processo de ingestão, indexação e consulta.
+- Inclua exemplos de consultas e resultados relevantes para estudo e compartilhamento.
+
 ### 🧠 Sobre o Azure Cognitive Search
 O `Azure Cognitive Search` é um serviço da Microsoft que permite:
 - Indexar dados estruturados e não estruturados
