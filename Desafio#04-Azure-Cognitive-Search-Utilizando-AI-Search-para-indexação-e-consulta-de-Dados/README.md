@@ -107,4 +107,4 @@ Este guia serve como repositório de estudos, desafios e projetos da [Bootcamp M
   </tr>
 </table>
 
-<div align="center"><a href="https://github.com/rhayssakramer"><img src="https://github.com/rhayssakramer/rhayssakramer/blob/main/img/by-devrhakramer.png" width="100"></a></div>
+<div align="center"><a href="https://github.com/rhayssakramer"><img src="https://github.com/rhayssakramer/rhayssakramer/blob/main/img/rodape.png"></a></div>
