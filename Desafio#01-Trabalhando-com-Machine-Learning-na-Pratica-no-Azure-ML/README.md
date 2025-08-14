@@ -1,8 +1,8 @@
-## 🤖 Trabalhando com Machine Learning na Prática no Azure ML
+# 🤖 Trabalhando com Machine Learning na Prática no Azure ML
 
 Este repositório corresponde ao Desafio #01 da [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089) para aprender a criar nossa conta no Azure e explorar as capacidades de `Machine Learning` da plataforma para desenvolver nossa primeira automação prática. Ao aplicar implementações e soluções escaláveis de aprendizado de máquina na nuvem da Microsoft, adquiriremos conhecimentos valiosos e experiência na construção de soluções eficientes. 
 
-### Índice
+## 📑 Índice
 - [Introdução](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#introdu%C3%A7%C3%A3o)
 - [Tecnologias Utilizadas]()
 - [Desafio de Projeto](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-desafio-de-projeto)
@@ -105,20 +105,16 @@ O `Azure Machine Learning Studio` (ML Studio) é um ambiente de desenvolvimento 
 1. Acesse o `Azure ML Studio`
 - Link: https://ml.azure.com
 - Faça login com sua conta Microsoft
-
 2. Crie um Workspace
 - No portal Azure, vá em `Criar um recurso`
 - Procure por `Machine Learning`
 - Preencha as informações e crie o Workspace
-
 3. Faça Upload do Dataset
 - Acesse o `ML Studio`
 - Vá até `Datasets` > + `Create Dataset`
 - Escolha From local files
 - Dê um nome, defina os tipos de coluna e finalize
-
 >Exemplo de dataset: previsão de churn, previsão de preços, saúde, vendas etc.
-
 4. Use o AutoML (Machine Learning Automático)
 - Vá até `Automated ML`
 - Clique em + `New automated ML` run
@@ -127,14 +123,12 @@ O `Azure Machine Learning Studio` (ML Studio) é um ambiente de desenvolvimento 
   - Tipo de experimento (Classificação, Regressão ou Séries Temporais)
   - Variável alvo (coluna que será prevista)
 - Configure os parâmetros e execute
-
 5. Avalie os Resultados
 - Após a execução, acesse a aba de métricas:
   - Acurácia
   - AUC
   - RMSE (se regressão)
 - Compare os modelos e visualize as explicações (interpretabilidade)
-
 6. Implante o Modelo como Web Service
 - Selecione o melhor modelo
 - Clique em `Deploy`
@@ -143,7 +137,6 @@ O `Azure Machine Learning Studio` (ML Studio) é um ambiente de desenvolvimento 
   - URL do endpoint
   - Chave de acesso para autenticação
   - Documentação com exemplo de uso via API
-
 **Exemplo de Requisição para Previsão via API**
 ```
 curl -X POST https://<seu-endpoint>.azurewebsites.net/score \
@@ -257,13 +250,13 @@ No formato JSON:
 ### 🤝 Dica Extra
 Você pode usar Jupyter Notebooks integrados ao Azure ML Studio para customizar seus modelos com Python, além de reutilizar o modelo treinado com AutoML em pipelines mais avançados.
 
-### 🗒️ Recursos Adicionais
+## 🗒️ Recursos Adicionais
 - [Documentação Oficial do Microsoft Azure](https://docs.microsoft.com/azure)
 - [Documentação do Azure ML](https://learn.microsoft.com/pt-br/azure/machine-learning/)
 - [Introdução ao AutoML no Azure](https://learn.microsoft.com/pt-br/azure/machine-learning/concept-automated-ml)
 
 ## 🔗 Créditos
-Este guia serve como repositório de estudos, desafios e projetos da [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089). Explore os recursos compartilhados necessários para atender às suas necessidades de nuvem.
+Este guia serve como repositório de estudos, desafios e projetos da [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089), para avaliar o ensinado sobre criar nossa conta no Azure e explorar as capacidades de `Machine Learning` da plataforma para desenvolver nossa primeira automação prática.
 
 *Nota: Este projeto é apenas para fins educacionais e não possui nenhuma afiliação oficial com a franquia DIO ou suas empresas associadas.*
 
