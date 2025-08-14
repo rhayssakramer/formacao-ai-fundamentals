@@ -68,7 +68,7 @@ O objetivo é desenvolver habilidades práticas na criação de soluções basea
 │    └── arquitetura_projeto.png
 └── 📄 LICENSE                    # Licença do projeto
 ```
-### Ferramentas e Tecnologias:
+#### ⚙️ Ferramentas e Tecnologias:
 - Pyton
 - JSON
 - Azure Language Studio
