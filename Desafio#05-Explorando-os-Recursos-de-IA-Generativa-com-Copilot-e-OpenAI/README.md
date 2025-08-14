@@ -1,8 +1,8 @@
-## 🤖 Explorando os Recursos de IA Generativa com Copilot e OpenAI
+# 🤖 Explorando os Recursos de IA Generativa com Copilot e OpenAI
 
-Este repositório corresponde ao Desafio #05 da  [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089) para paplicar técnicas de organização e pesquisa de documentos por meio da ingestão de dados e indexação utilizando ferramentas de inteligência artificial.
+Este repositório corresponde ao Desafio #05 da  [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089) para aplicar técnicas de organização e pesquisa de documentos por meio da ingestão de dados e indexação utilizando ferramentas de inteligência artificial.
 
-### Índice
+## 📑 Índice
 - [Introdução]()
 - [Tecnologias Utilizadas]()
 - [Desafio do Projeto]()
@@ -10,10 +10,11 @@ Este repositório corresponde ao Desafio #05 da  [Bootcamp Microsoft - Fundament
     - [x] [Pré-requisitos]()  
     - [x] [Estrutura do Repositório]()
     - [x] [Ferramentas e Tecnologias]()   
-    - [x] [Como Usar]()    
-    - [x] [Exemplos de Prompts para IA Generativa]()     
-    - [x] [Dicas para Filtro de Conteúdo Responsável]()   
-    - [x] [Mini Tutorial de Uso do GitHub Copilot no VS Code]()   
+    - [x] [O que será feito?]()
+    - [x] [Passo a Passo]()   
+- [Exemplos de Prompts para IA Generativa]()     
+- [Dicas para Filtro de Conteúdo Responsável]()   
+- [Mini Tutorial de Uso do GitHub Copilot no VS Code]()   
 - [Recursos Adicionais]()
 - [Créditos]()
 - [Autora]()
@@ -74,7 +75,7 @@ O objetivo é entender como essas ferramentas podem ajudar na automação, gera�
 └── 📄 LICENSE                    # Licença do projeto
 ```
 
-#### 🛠️ Ferramentas e Tecnologias
+#### ⚙️ Ferramentas e Tecnologias
 - GitHub Copilot
 - OpenAI API / OpenAI Studio
 - Visual Studio Code
@@ -84,13 +85,22 @@ O objetivo é entender como essas ferramentas podem ajudar na automação, gera�
 - JavaScript
 - HTML
 
-#### 🚀 Como Usar
+#### 🧠 O que será feito?
+Neste desafio, você irá:
+- Explorar os recursos do `GitHub Copilot` e das `ferramentas OpenAI` para geração assistida de código e conteúdo.
+- Criar exemplos práticos de scripts em `Python`, `JavaScrip`t e `HTML`, utilizando sugestões de IA.
+- Aplicar técnicas de ingestão de dados e indexação para organizar informações e documentos de forma inteligente.
+- Testar e comparar respostas da IA variando os prompts para observar impacto nos resultados.
+- Implementar filtros de conteúdo responsável, garantindo que a IA gere informações seguras e éticas.
+- Registrar aprendizados, boas práticas e limitações observadas para servir de guia em projetos futuros.
+
+#### 🚀 Passo a Passo
 1. Navegue pelas pastas para conferir exemplos e prompts.  
 2. Teste os códigos no seu ambiente preferido, como VS Code com Copilot ativo.  
 3. Explore variações nos prompts para entender o impacto nas respostas da IA.  
 4. Leia as anotações para entender as limitações e melhores práticas.  
 
-#### 💬 Exemplos de Prompts para IA Generativa
+### 💬 Exemplos de Prompts para IA Generativa
 ```
 Aqui estão alguns prompts úteis para testar o Copilot e os modelos OpenAI:
 
@@ -110,7 +120,7 @@ Aqui estão alguns prompts úteis para testar o Copilot e os modelos OpenAI:
 //Traduza o texto abaixo do português para o inglês: [colar texto aqui]
 
 ```
-#### 🛡️ Dicas para Filtro de Conteúdo Responsável
+### 🛡️ Dicas para Filtro de Conteúdo Responsável
 ```
 Para garantir o uso ético e seguro da IA generativa, considere:
 
@@ -122,7 +132,7 @@ Para garantir o uso ético e seguro da IA generativa, considere:
 
 ```
 
-#### 🚀 Mini Tutorial de Uso do GitHub Copilot no VS Code
+### 🚀 Mini Tutorial de Uso do GitHub Copilot no VS Code
 ```
 1. Instalação:
    - Abra o VS Code.  
@@ -149,19 +159,18 @@ Para garantir o uso ético e seguro da IA generativa, considere:
    - [Documentação oficial do GitHub Copilot](https://docs.github.com/copilot)
 ```
 
-
-### 🗒️ Recursos Adicionais
+## 🗒️ Recursos Adicionais
 - [Documentação Oficial do Microsoft Azure](https://docs.microsoft.com/azure)
 - [Documentação do GitHub Copilot](https://docs.github.com/copilot)  
 - [Documentação OpenAI](https://platform.openai.com/docs)  
 - [Guia de uso responsável da IA](https://www.microsoft.com/ai/responsible-ai)  
 
 ## 🔗 Créditos
-Este guia serve como repositório de estudos, desafios e projetos da [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089). Explore os recursos compartilhados necessários para atender às suas necessidades de nuvem.
+Este guia serve como repositório de estudos, desafios e projetos da [Bootcamp Microsoft - Fundamentos de IA](https://www.dio.me/bootcamp/microsoft-fundamentos-de-ia) e da [Formação Microsoft Azure AI Fundamentals (AI-900)](https://web.dio.me/track/2150f9b5-b06f-4a59-ade6-ab163c24f089), avaliando o ensinado sobre aplicar técnicas de organização e pesquisa de documentos por meio da ingestão de dados e indexação utilizando ferramentas de inteligência artificial.
 
 *Nota: Este projeto é apenas para fins educacionais e não possui nenhuma afiliação oficial com a franquia DIO ou suas empresas associadas.*
 
-### 👩🏼‍💻 Autora:
+## 👩🏼‍💻 Autora:
 <table style="border=0">
   <tr>
     <td align="left">
