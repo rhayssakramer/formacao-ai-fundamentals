@@ -4,15 +4,26 @@ Este repositório corresponde ao Desafio #03 da  [Bootcamp Microsoft - Fundament
 
 ### Índice
 - [Introdução](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#introdu%C3%A7%C3%A3o)
+- [Tecnologias Utilizadas]()
 - [Desafio do Projeto](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#-desafio-de-projeto)
 - [Objetivos](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#%EF%B8%8F-objetivos)  
-    [x] [Pré-requisitos](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#-pr%C3%A9-requisitos)  
-    [x] [O que é o Language Studio?](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#-o-que-%C3%A9-o-language-studio)  
-    [x] [Passo a Passo: Análise de Sentimentos](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#-passo-a-passo-an%C3%A1lise-de-sentimentos)  
+  - [x] [Pré-requisitos](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#-pr%C3%A9-requisitos)  
+  - [x] [Estrutura do Repositório]()
+  - [x] [Tecnologias e Ferramentas]()
+  - [x] [O que é o Language Studio?](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#-o-que-%C3%A9-o-language-studio)  
+  - [x] [Passo a Passo: Análise de Sentimentos](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#-passo-a-passo-an%C3%A1lise-de-sentimentos)  
 - [Recursos Adicionais](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2303-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI#%EF%B8%8F-recursos-adicionais)
+- [Créditos]()
+- [Autora]()
 
 ### ▶️ Introdução
 O `Microsoft Azure` é uma plataforma de nuvem que disponibiliza uma variedade de serviços, distribuídos em várias categorias. Este guia foi elaborado para ajudá-lo a navegar pelo portal do Azure e encontrar facilmente os serviços que você precisa.
+
+### 💻 Tecnologias Utilizadas
+
+| Linguagens de Programação | Ferramentas e Tecnologias |
+| :-----------------: | :-----------------------: |
+| <img height="40" src="https://skillicons.dev/icons?i=py"> | <img height="40" src="https://skillicons.dev/icons?i=github"> <img height="40" src="https://skillicons.dev/icons?i=git"> <img height="40" src="https://skillicons.dev/icons?i=vscode"> <img height="40" src="https://skillicons.dev/icons?i=azure">
 
 ### 🎯 Desafio de Projeto
 Este repositório apresenta um passo a passo completo para realizar uma Análise de Sentimentos utilizando o `Language Studio` e `Azure Speech Studio`, ferramenta da plataforma Azure AI. Ideal para iniciantes em IA Cognitiva e `Processamento de Linguagem Natural (PLN)`. Neste laboratório o objetivo é praticar e aprofundar o uso das ferramentas `Azure Speech Studio` e `Language Studio`, focando na análise de fala e linguagem natural. 
@@ -25,6 +36,46 @@ O objetivo é desenvolver habilidades práticas na criação de soluções basea
 2. Faça login com suas credenciais da Microsoft.
 3. Acesse o Language Studio: [Language Studio](https://language.azure.com/)
 4. Navegador moderno (recomendado: Edge ou Chrome)
+
+#### 📁 Estrutura do Repositório
+```
+📂 Desafio#03-Analise-de-Sentimentos-com-Language-Studio-no-Azure-AI/
+│
+├── 📄 README.md                 # Documento principal com explicação e guia passo a passo
+├── 📂 assets/                    # Imagens e recursos visuais usados no README
+│    ├── exemplos/
+│    │   ├── sentiment-positivo.png
+│    │   ├── sentiment-negativo.png
+│    │   └── sentiment-neutro.png
+│    └── rodape.png
+├── 📂 datasets/                  # Arquivos de texto ou datasets usados para teste
+│    ├── frases_exemplo.txt
+│    └── dataset_sentimentos.csv
+├── 📂 notebooks/                 # Notebooks Jupyter para experimentos de análise de sentimentos
+│    └── analise_sentimentos.ipynb
+├── 📂 scripts/                   # Scripts Python para interação com a API de Linguagem do Azure
+│    ├── analise_sentimento_api.py
+│    ├── preprocessamento_texto.py
+│    └── utils.py
+├── 📂 api/                       # Exemplos de integração com a API do Azure Language Service
+│    ├── exemplo_requisicao_curl.txt
+│    ├── exemplo_python.py
+│    └── exemplo_postman_collection.json
+├── 📂 docs/                      # Documentos extras e guias complementares
+│    ├── guia_language_studio.pdf
+│    └── arquitetura_projeto.png
+└── 📄 LICENSE                    # Licença do projeto
+```
+### Ferramentas e Tecnologias:
+- Pyton
+- JSON
+- Azure Language Studio
+- Azure Speech Studio
+- Azure Portal
+- GitHub
+- Git
+- VS Code
+- Jupyter Notebook
 
 #### 🧠 O que é o Language Studio?
 O `Language Studio` é uma interface gráfica que permite usar os serviços de linguagem do `Azure (Cognitive Services)` sem precisar programar. Ele fornece recursos como:
@@ -54,13 +105,13 @@ O `Language Studio` é uma interface gráfica que permite usar os serviços de l
 - Classificação por frase
 - Visualização com cores e probabilidades
 
-🧪 **Exemplos de Entrada**  
+🧪 Exemplos de Entrada 
 ```
 "Hoje o atendimento foi excelente, estou muito satisfeita!"
 "Não gostei do produto, chegou com defeito e demorou muito."
 ```
 
-✅ **Resultados esperados**
+✅ Resultados esperados
 - Primeira frase → Sentimento Positivo (score próximo de 1.0)
 - Segunda frase → Sentimento Negativo (score próximo de 0.0)
 

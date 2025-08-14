@@ -4,18 +4,28 @@ Este repositório corresponde ao Desafio #05 da  [Bootcamp Microsoft - Fundament
 
 ### Índice
 - [Introdução]()
+- [Tecnologias Utilizadas]()
 - [Desafio do Projeto]()
 - [Objetivos]()  
-    [x] [Pré-requisitos]()  
-    [x] [Estrutura do Repositório]()   
-    [x] [Como Usar]()    
-    [x] [Exemplos de Prompts para IA Generativa]()     
-    [x] [Dicas para Filtro de Conteúdo Responsável]()   
-    [x] [Mini Tutorial de Uso do GitHub Copilot no VS Code]()   
+    - [x] [Pré-requisitos]()  
+    - [x] [Estrutura do Repositório]()
+    - [x] [Ferramentas e Tecnologias]()   
+    - [x] [Como Usar]()    
+    - [x] [Exemplos de Prompts para IA Generativa]()     
+    - [x] [Dicas para Filtro de Conteúdo Responsável]()   
+    - [x] [Mini Tutorial de Uso do GitHub Copilot no VS Code]()   
 - [Recursos Adicionais]()
+- [Créditos]()
+- [Autora]()
 
 ### ▶️ Introdução
 O `Microsoft Azure` é uma plataforma de nuvem que disponibiliza uma variedade de serviços, distribuídos em várias categorias. Este guia foi elaborado para ajudá-lo a navegar pelo portal do Azure e encontrar facilmente os serviços que você precisa.
+
+### 💻 Tecnologias Utilizadas
+
+| Linguagens de Programação | Ferramentas e Tecnologias |
+| :-----------------: | :-----------------------: |
+| <img height="40" src="https://skillicons.dev/icons?i=html"> <img height="40" src="https://skillicons.dev/icons?i=js"> <img height="40" src="https://skillicons.dev/icons?i=py"> | <img height="40" src="https://skillicons.dev/icons?i=github"> <img height="40" src="https://skillicons.dev/icons?i=git"> <img height="40" src="https://skillicons.dev/icons?i=vscode"> <img height="40" src="https://skillicons.dev/icons?i=azure"> |
 
 ### 🎯 Desafio de Projeto
 Este desafio tem como objetivo explorar as funcionalidades do `Copilot` e das ferramentas da `OpenAI`, com ênfase nos filtros de conteúdo e nos recursos de criação assistida por inteligência artificial. O entregável consiste em um repositório organizado com exemplos de uso, prompts aplicados e anotações sobre os aprendizados adquiridos.
@@ -40,11 +50,39 @@ O objetivo é entender como essas ferramentas podem ajudar na automação, gera�
 #### 📂 Estrutura do Repositório
 ```
 📦 explorando-ia-generativa/
-┣ 📂 exemplos/ # Exemplos de código e uso do Copilot e OpenAI
-┣ 📂 prompts/ # Coleção de prompts utilizados e testados
-┣ 📂 anotacoes/ # Notas e insights do laboratório
-┣ 📄 README.md # Este arquivo
+📂 Desafio#05-Explorando-IA-Generativa-com-Copilot-e-OpenAI/
+│
+├── 📄 README.md                 # Documento principal com guia, exemplos e instruções do desafio
+├── 📂 exemplos/                  # Exemplos de código e uso do GitHub Copilot e OpenAI
+│    ├── exemplo_python.py
+│    ├── exemplo_javascript.js
+│    └── exemplo_html.html
+├── 📂 prompts/                   # Coleção de prompts utilizados e testados
+│    ├── prompts_codigo.md
+│    ├── prompts_texto.md
+│    └── prompts_criativos.md
+├── 📂 anotacoes/                 # Notas, observações e insights obtidos durante o desafio
+│    ├── boas_praticas.md
+│    └── limitacoes_e_observacoes.md
+├── 📂 scripts/                   # Scripts para testes automatizados com IA generativa
+│    ├── gerar_texto_openai.py
+│    └── gerar_codigo_copilot.py
+├── 📂 docs/                      # Documentos e tutoriais extras
+│    ├── guia_copilot.pdf
+│    ├── guia_openai.pdf
+│    └── arquitetura_projeto.png
+└── 📄 LICENSE                    # Licença do projeto
 ```
+
+#### 🛠️ Ferramentas e Tecnologias
+- GitHub Copilot
+- OpenAI API / OpenAI Studio
+- Visual Studio Code
+- GitHub
+- Git
+- Python
+- JavaScript
+- HTML
 
 #### 🚀 Como Usar
 1. Navegue pelas pastas para conferir exemplos e prompts.  

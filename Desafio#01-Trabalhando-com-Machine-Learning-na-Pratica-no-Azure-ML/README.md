@@ -4,19 +4,39 @@ Este repositório corresponde ao Desafio #01 da [Bootcamp Microsoft - Fundamento
 
 ### Índice
 - [Introdução](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#introdu%C3%A7%C3%A3o)
+- [Tecnologias Utilizadas]()
 - [Desafio de Projeto](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-desafio-de-projeto)
-- [Objetivos](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#%EF%B8%8F-objetivos)  
-  [x] [Pré-requisitos](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-pr%C3%A9-requisitos)  
-  [x] [O que será feito?](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-o-que-ser%C3%A1-feito)   
-  [x] [Passo a Passo](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-passo-a-passo)  
-  [x] [Modelo de Uso](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-modelo-de-uso)  
-  [x] [O que é JSON?](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-o-que-%C3%A9-json)  
-  [x] [Casos de Uso](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-casos-de-uso)      
-  [x] [Dica Extra](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-dica-extra)    
+- [Objetivos](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#%EF%B8%8F-objetivos)
+  - [x] [Pré-requisitos](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-pr%C3%A9-requisitos)
+  - [x] [Estrutura do Repositório]()
+  - [x] [Ferramentas e Tecnologias]()
+  - [x] [O que será feito?](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-o-que-ser%C3%A1-feito)
+  - [x] [Passo a Passo](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-passo-a-passo)
+- [Modelo de Uso](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-modelo-de-uso)  
+  - [x] [Etapa 1: Preparar os dados]()
+  - [x] [Etapa 2: Criar a tarefa no Azure AutoML]()
+  - [x] [Etapa 3: Configurar o experimento]()
+  - [x] [Etapa 4: Executar o AutoML]()
+  - [x] [Etapa 5: Publicar o modelo como um endpoint]()
+  - [x] [Etapa 6: Fazer previsões com o modelo implantado]()
+  - [x] [Casos de Uso](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-casos-de-uso)
+- [O que é JSON?](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-o-que-%C3%A9-json) 
+  - [x] [Entendendo o JSON:]()
+  - [x] [Explicando com analogia]()
+- [Casos de Uso](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-casos-de-uso)
+- [Dica Extra](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-dica-extra)  
 - [Recursos Adicionais](https://github.com/rhayssakramer/formacao-ai-fundamentals/tree/main/Desafio%2301-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML#-dica-extra)
+- [Créditos]()
+- [Autora]()
 
 ### ▶️ Introdução
 O `Microsoft Azure` é uma plataforma de nuvem que disponibiliza uma variedade de serviços, distribuídos em várias categorias. Este guia foi elaborado para ajudá-lo a navegar pelo portal do Azure e encontrar facilmente os serviços que você precisa.
+
+### 💻 Tecnologias Utilizadas
+
+| Linguagens de Programação | Ferramentas e Tecnologias |
+| :-----------------: | :-----------------------: |
+| <img height="40" src="https://skillicons.dev/icons?i=py"> | <img height="40" src="https://skillicons.dev/icons?i=github"> <img height="40" src="https://skillicons.dev/icons?i=git"> <img height="40" src="https://skillicons.dev/icons?i=vscode"> <img height="40" src="https://skillicons.dev/icons?i=azure">
 
 ### 🎯 Desafio de Projeto
 Este projeto apresenta um guia prático para construção e implantação de modelos de `Machine Learning` (ML) usando a plataforma `Azure Machine Learning Studio`. Ideal para quem quer explorar AutoML, criar pipelines e publicar modelos como API de forma acessível e sem precisar programar tudo do zero.
@@ -29,6 +49,50 @@ O objetivo é aprender a criar nossa conta no Azure e explorar as capacidades de
 2. Fazer login com suas credenciais da Microsoft.
 3. Acesse o [Azure Machine Learning Studio](https://ml.azure.com/)
 4. Um dataset disponível para upload (CSV, Excel, ou JSON)
+
+#### 📁 Estrutura do Repositório
+```
+📂 nome-do-repositorio/
+│
+├── 📄 README.md                 # Descrição completa do projeto (modelo detalhado que você enviou)
+├── 📂 assets/                    # Imagens, ícones e recursos visuais usados no README
+│    ├── img1.png
+│    ├── img2.png
+│    └── rodape.png
+├── 📂 datasets/                  # Arquivos de dados (.csv, .xlsx, .json) usados nos exemplos
+│    ├── dataset-exemplo.csv
+│    └── dataset-teste.json
+├── 📂 notebooks/                 # Jupyter Notebooks com scripts e experimentos
+│    ├── analise-inicial.ipynb
+│    ├── treino-automl.ipynb
+│    └── avaliacao-modelo.ipynb
+├── 📂 scripts/                   # Códigos Python ou outra linguagem para automação
+│    ├── preprocessamento.py
+│    ├── previsao_api.py
+│    └── utils.py
+├── 📂 docs/                      # Documentos extras (PDFs, guias, relatórios)
+│    ├── guia_azure_ml.pdf
+│    └── passo_a_passo.pdf
+├── 📂 models/                    # Modelos treinados exportados
+│    ├── modelo-produtos.pkl
+│    └── modelo-vendas.pkl
+├── 📂 api/                       # Exemplos de integração com API do Azure
+│    ├── exemplo_curl.txt
+│    ├── exemplo_python.py
+│    └── exemplo_postman.json
+└── 📄 LICENSE                    # Licença do projeto (MIT, Apache 2.0, etc.)
+```
+
+#### 🛠️ Ferramentas e Tecnologias
+- Python
+- JSON
+- Azure Machine Learning Studio
+- Azure AutoML
+- Azure Portal
+- GitHub
+- Git
+- VS Code
+- Jupyter Notebook
 
 #### 🧠 O que será feito?
 O `Azure Machine Learning Studio` (ML Studio) é um ambiente de desenvolvimento completo na nuvem que permite:
